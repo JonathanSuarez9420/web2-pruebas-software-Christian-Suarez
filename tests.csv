@@ -1,0 +1,15 @@
+,OS: Windows 11 | Browser: Chrome 148 | Resolution: 1366x720 | Time: 25 May 2026 / 20:7:0  GMT-5
+
+"#","Step","Data","Exp Result","XPath","cssSelector"
+"1","Open website","http://localhost:8080/login","","",""
+"2","Enter ""admin"" into ""Usuario""","admin","","//input[@id='username']","#username"
+"3","Press Down Arrow","******","","","#password"
+"4","Enter ""******"" into ""Contraseña""","******","","//input[@id='password']","#password"
+"5","Click on ""Iniciar Sesión""","","","//button[normalize-space()='Iniciar Sesión']","button[type='submit']"
+"6","Enter ""******"" into ""Contraseña""","******","","//input[@id='password']","#password"
+"7","Click on ""Iniciar Sesión""","","","//button[normalize-space()='Iniciar Sesión']","button[type='submit']"
+"8","Click on ""bodyElement""","","","//body","body"
+"9","Enter """" into ""Usuario""","","","//input[@id='username']","#username"
+"10","Press Down Arrow","******","","","#password"
+"11","Enter ""******"" into ""Contraseña""","******","","//input[@id='password']","#password"
+"12","Click on ""Iniciar Sesión""","","","//button[normalize-space()='Iniciar Sesión']","button[type='submit']"
